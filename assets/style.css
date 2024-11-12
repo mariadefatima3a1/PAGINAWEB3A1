@@ -56,8 +56,7 @@ body {
     color: var(--text-color);
     font-weight: 500;
 }
-.cartao.active .cartao__conteudo__pergunta {
-    display: none; 
+
 }
 .cartao__conteudo__resposta p {
     color: var(--card-back-color);
@@ -76,7 +75,9 @@ body {
     width: 100%;
     box-sizing: border-box;
 }
-
+.cartao.active .cartao__conteudo__pergunta {
+    display: none; 
+}
 .cartao__conteudo__resposta {
     transform: rotateY(180deg);
     background-color: rgba(0, 244, 191, 0.2);
